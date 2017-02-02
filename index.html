@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html>
 <head>
-<link rel="stylesheet" type="text/css" href="/normalise.css">// why you add this link?
 	<title>love bakery</title>
 	<style type="text/css">
 		header {
@@ -35,8 +34,8 @@
 		div{
 			background: url("http://i.imgur.com/Yjo0d8R.jpg");
 			height: 200px;
-			width: 600px;
-			border-radius: 14px;
+			width: 900px;
+			
             background-size: cover;
              position: relative;
               margin-top: 40px;
@@ -51,8 +50,8 @@
 		.three {
 			background-image: url("http://i.imgur.com/mEp085c.jpg");
 		}
-		@media (max-width: 500px) {
-			div {
+		@media(max-width: 500px) {
+			div{
 				height: 320px;
 				width: 320px;
 			}
@@ -112,6 +111,11 @@
 <button>Like</button>
 </article>
 </div>
-
+<script type="text/javascript">
+	alert("javascript Works!")
+	$("button").on("click",function(){
+		alert("clicked!")
+	});
+</script>
 </body>
 </html>
