@@ -35,6 +35,9 @@ p {
   text-align: justify;
   bottom: 0;
   margin: 0;
+  transition: height .5s;
+  -webkit-transition: height .5s;
+  -moz-transition: height .5s;
 
 }
 .des p{
@@ -123,7 +126,7 @@ h1 {
 <script type="text/javascript" >
   
   $('div').on('click', function() {
-  $(this).toggleclass('des');
+     $(this).toggleClass('des');
   });
 </script>
 </body>
